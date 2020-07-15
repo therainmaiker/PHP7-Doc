@@ -25,8 +25,6 @@ $date =$_GET["date"];
 <p> Based on the input, here is the information so far: <br>
 <?php echo $actor;?> starred in the movie Avengers which was released in year <?php print $date; ?>
 
-
-
 </p>
 
 
