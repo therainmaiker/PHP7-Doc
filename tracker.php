@@ -5,7 +5,13 @@ $weightKg =  50;
 $heightCm =  155;
 $heightM =  $heightCm/100 ;
 
+$heightMcarre =  $heightM * $heightM ;
 
 
-echo $name , $weightKg / $heightCm ;
+$IMC = $weightKg / $heightMcarre;
+
+echo " Hello  " , $name  ," ,  your IMC is   "  , $IMC ;
+
+
+
 ?>
